@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg10"
+
+    >
+
+    <TextView
+        android:id="@+id/NUMBER"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/QUESTION"
+        android:layout_alignLeft="@+id/QUESTION"
+        android:layout_alignStart="@+id/QUESTION" />
+
+    <TextView
+        android:id="@+id/QUESTION"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="TextView"
+
+
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold"
+
+
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignLeft="@+id/radiogroup"
+        android:layout_alignStart="@+id/radiogroup" />
+<RadioGroup
+    android:id="@+id/radiogroup"
+    android:layout_width="260dp"
+    android:layout_height="200dp"
+    android:textStyle="bold"
+    android:layout_above="@+id/button2"
+    android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:id="@+id/Answer1"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:text="RadioButton"
+        android:buttonTint="@color/colorbg"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/Answer2"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:text="RadioButton"
+
+        android:textStyle="bold"
+
+        />
+
+    <RadioButton
+        android:id="@+id/Answer3"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+
+        android:text="RadioButton" />
+
+    <RadioButton
+        android:id="@+id/Answer4"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:text="RadioButton"
+
+        android:textStyle="bold" />
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="CHECK YOUR FINAL SCORE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:layout_marginBottom="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />-->
+
+</RelativeLayout>
